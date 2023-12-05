@@ -18,4 +18,14 @@ void Node::setStudent(Student* newStudent) {
   student = newStudent;
 }
 
-void Node
+void Node::setNext(Node* newNext) {
+  next = newNext;
+}
+
+Student* Node::getStudent() {
+  return student;
+}
+
+Node* Node::getNext() {
+    return next;
+}
